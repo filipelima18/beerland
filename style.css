@@ -1,0 +1,55 @@
+body {
+    overflow-x: hidden;
+}
+nav.navbar.navbar-expand-sm.navbar-dark.bg-primary {
+    padding: 8px 200px;
+}
+.main-hero {
+    background-image: url("content/images/beer-bg.jpg");
+    object-fit: cover;
+    height: 100vh;
+    background-position: center left;
+}
+.hero-container {
+    padding-top: 150px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: 800 !important;
+}
+.button-fl {
+    padding: 10px 90px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+h2 {
+    font-size: 3rem;
+}
+.section-2, .section-3 {
+    margin-top: 60px;
+}
+.section-3 {
+    padding-bottom: 40px;
+}
+.space-before-30 {
+    margin-top: 30px;
+}
+.space-before-60 {
+    margin-top: 60px;
+}
+.space-before-90 {
+    margin-top: 90px;
+}
+
+@media (min-width: 1200px) {
+    .container.hero-container, .navbar {
+        max-width: 1350px;
+    }
+    .hero-1200 {
+        max-width: 1200px;
+    }
+    .navbar {
+        margin: auto;
+    }
+}
